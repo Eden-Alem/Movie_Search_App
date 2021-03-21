@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SearchMovies from "./searchmovies";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     // </div>
     <div className="container">
       <h1 className="title">React Movie Search</h1>
+      <SearchMovies/>
     </div>
   );
 }
