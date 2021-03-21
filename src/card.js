@@ -1,5 +1,6 @@
 import React from "react";
 
+// Concepts: props(passing around properties), separate components
 export default function Card({ movie }) {
  
     return (

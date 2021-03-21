@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import MovieCard from "./card.js";
 
+// Concepts: Fetch(from an API, getting an API key), hooks(useState), asynchronous JS(async await) 
 export default function SearchMovies() {
 
     //states = input query, movies
@@ -10,8 +11,6 @@ export default function SearchMovies() {
 
     const searchMovies = async (e) => {
         e.preventDefault();
-
-        // const query = "Jurassic Park";
 
         const url = `https://api.themoviedb.org/3/search/movie?api_key=8752db6ca168ae4b1865aeac42f13afc&language=en-US&query=${query}&page=1&include_adult=false`;
 
